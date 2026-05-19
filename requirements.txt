@@ -1,0 +1,5 @@
+python-binance
+argparse
+python-dotenv
+rich
+pandas
