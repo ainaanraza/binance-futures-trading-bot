@@ -16,7 +16,7 @@ from bot.exceptions import ValidationError, APIConnectionError, OrderPlacementEr
 console = Console()
 
 def print_banner():
-    banner = Text("🚀 Binance Futures Trading Bot (Testnet) 🚀", style="bold magenta", justify="center")
+    banner = Text(" Binance Futures Trading Bot (Testnet) ", style="bold magenta", justify="center")
     console.print(Panel(banner, border_style="magenta", expand=False))
 
 def print_success(message: str):
