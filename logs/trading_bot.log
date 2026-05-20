@@ -1,0 +1,26 @@
+2026-05-20 02:10:47 - ERROR - Missing Binance API credentials in .env file.
+2026-05-20 02:13:24 - INFO - Successfully initialized Binance client for Testnet.
+2026-05-20 02:13:24 - DEBUG - Fetching current price for BTCUSDT
+2026-05-20 02:13:24 - DEBUG - Current price for BTCUSDT is 76913.0
+2026-05-20 02:13:24 - INFO - Placing order with params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-05-20 02:13:25 - ERROR - Binance API error placing order: APIError(code=-1022): Signature for this request is not valid.
+2026-05-20 02:13:25 - ERROR - Order placement failed: Failed to place MARKET order: Error placing order: Signature for this request is not valid.
+2026-05-20 02:15:17 - INFO - Successfully initialized Binance client for Testnet.
+2026-05-20 02:15:17 - DEBUG - Fetching current price for BTCUSDT
+2026-05-20 02:15:17 - DEBUG - Current price for BTCUSDT is 76913.0
+2026-05-20 02:15:17 - INFO - Placing order with params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-05-20 02:15:18 - INFO - Order placed successfully: 13164499148
+2026-05-20 02:15:18 - INFO - Created new trade journal at data\trade_history.csv
+2026-05-20 02:15:18 - INFO - Successfully logged trade 13164499148 to journal.
+2026-05-20 02:15:44 - INFO - Successfully initialized Binance client for Testnet.
+2026-05-20 02:15:44 - DEBUG - Fetching current price for BTCUSDT
+2026-05-20 02:15:44 - DEBUG - Current price for BTCUSDT is 76913.0
+2026-05-20 02:15:44 - INFO - Placing order with params: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'timeInForce': 'GTC', 'quantity': 0.001, 'price': 65000.0}
+2026-05-20 02:15:45 - ERROR - Binance API error placing order: APIError(code=-4024): Limit price can't be lower than 73065.00.
+2026-05-20 02:15:45 - ERROR - Order placement failed: Failed to place LIMIT order: Error placing order: Limit price can't be lower than 73065.00.
+2026-05-20 02:17:02 - INFO - Successfully initialized Binance client for Testnet.
+2026-05-20 02:17:02 - DEBUG - Fetching current price for BTCUSDT
+2026-05-20 02:17:02 - DEBUG - Current price for BTCUSDT is 76934.8
+2026-05-20 02:17:02 - INFO - Placing order with params: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'timeInForce': 'GTC', 'quantity': 0.001, 'price': 74000.0}
+2026-05-20 02:17:03 - INFO - Order placed successfully: 13164505052
+2026-05-20 02:17:03 - INFO - Successfully logged trade 13164505052 to journal.
